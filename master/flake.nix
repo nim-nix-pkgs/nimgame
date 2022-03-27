@@ -11,6 +11,7 @@
   inputs.src-nimgame-master.ref   = "refs/heads/master";
   inputs.src-nimgame-master.owner = "Vladar4";
   inputs.src-nimgame-master.repo  = "nimgame";
+  inputs.src-nimgame-master.dir   = "";
   inputs.src-nimgame-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
