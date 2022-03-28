@@ -11,7 +11,6 @@
   inputs.src-nimgame-v0_2.ref   = "refs/tags/v0.2";
   inputs.src-nimgame-v0_2.owner = "Vladar4";
   inputs.src-nimgame-v0_2.repo  = "nimgame";
-  inputs.src-nimgame-v0_2.dir   = "";
   inputs.src-nimgame-v0_2.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
